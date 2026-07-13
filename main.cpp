@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int name;
-    cout<<"enter your name"<<endl;
-    cout<<"your name is :";
-    cin>>name;
+    int age=21;
+    cout<<age<<endl;
+    age=101;
+    cout<<age<<endl;
     return 0;
 
 }
