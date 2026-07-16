@@ -7,4 +7,4 @@ int main(){
     cout<<age<<endl;
     return 0;
 
-}
+}           
