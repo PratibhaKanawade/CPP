@@ -7,7 +7,7 @@ int main(){
     //int to float
     int p=10;
     float q=p;
-    cout<<q<<endl;
+    cout<<"int to float:"<<q<<endl;
 
     //int to float
     int num1=10;
@@ -20,22 +20,27 @@ int main(){
     //char to int
     char letter='A';
     int number=letter;
-    cout<<number<<endl;
+    cout<<"char to int:"<<number<<endl;
      
     //char to int
     char ch='A';
-    int a=ch+1;//value of A is 65 so 65+1=66
+    int a=ch+1;// ASCII value of A is 65 so 65+1=66
     cout<<a<<endl;
     
     //int to char
     int a1=97;
     char ch1=a;
-    cout<<a1<<endl;
+    cout<<"int to char:"<<a1<<endl;
 
     //int to double
     int x=25;
     double y=x;
-    cout<<y<<endl;
+    cout<<"int to double:"<<y<<endl;
+
+    //bool to int 
+    bool value=true;
+    int num=value;
+    cout<<"bool to int:"<< num<<endl;
     return 0;
 
 }           
