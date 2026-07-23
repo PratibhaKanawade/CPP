@@ -24,6 +24,7 @@ int main()
         cout<<"enter your values:";
         cin>>arr[j];
     }
+    //arrat traverse
     for(int j=0;j<=4;j++){
         cout<<arr[j]<<" ";
     }
