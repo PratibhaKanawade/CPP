@@ -15,7 +15,7 @@ void multipleof10(int arr[], int size)
     {
         cout << arr[index] << " ";
     }
-}   // <-- Missing closing brace was added here
+}   
 
 int main()
 {
