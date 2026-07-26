@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream>    //Q.write a function to reverse an array
 using namespace std;
 void pbk(int arr[],int size){
         for(int index=4;index>=0;index--){

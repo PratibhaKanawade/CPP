@@ -9,7 +9,7 @@ int main(){
     cin>>marks;
     cout<<"your marks are:"<<marks<<endl;
 
-    //getline()
+    //getline() and cin.ignore()
     cin.ignore();
     string name;
     cout<<"enter your full name:"<<endl;
