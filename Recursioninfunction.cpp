@@ -5,7 +5,7 @@ void print(int n){
         return;
     }
     cout<<n<<endl;
-    print(n-1);
+    print(n-1);  //recursion means function calling itself    //here print function call itself
 }
 int main(){
     print(5);
